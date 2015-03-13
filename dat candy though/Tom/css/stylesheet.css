@@ -1,0 +1,30 @@
+﻿*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	margin-bottom: 20px;
+}
+
+#main {
+	width: 700px;
+	min-height: 700px;
+	border: 1px solid green;
+	margin: 40px auto 0 auto;
+}
+
+#images {
+	width: 600px;
+	height: 180px;
+	border: 1px solid black;
+	margin: 40px auto 0 auto;
+}
+
+#content {
+	width: 600px;
+	height: 600px;
+	border: 1px solid red;
+	margin: 40px auto 20px auto;
+}
