@@ -5,7 +5,7 @@
 }
 
 #wrapper {
-	margin-bottom: 20px;
+margin-bottom: 40px;
 }
 
 #main {
@@ -13,6 +13,8 @@
 	min-height: 700px;
 	border: 1px solid green;
 	margin: 40px auto 0 auto;
+	position: relative;
+
 }
 
 #images {
@@ -26,5 +28,42 @@
 	width: 600px;
 	height: 600px;
 	border: 1px solid red;
-	margin: 40px auto 20px auto;
+	margin: 40px auto 40px auto;
+}
+
+#slidingLeft {
+	height: 882px;
+	width: 150px;
+	display: inline-block;
+	position: absolute;
+	z-index: -1;
+	top: -1px;
+	left: 0;
+	border: 1px solid red;
+}
+
+#slidingRight {
+	height: 882px;
+	width: 150px;
+	display: inline-block;
+	position: absolute;
+	z-index: -1;
+	border: 1px solid green;
+	top: -1px;
+	right: 0px;
+}
+
+.background {
+	position: relative;
+}
+
+#contentBg1 {
+	height: 100px;
+	width: 50px;
+	background-color: green;
+}
+
+#footer {
+	margin-top: 10px;
+	text-align: center;
 }
