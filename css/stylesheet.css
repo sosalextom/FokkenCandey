@@ -15,11 +15,41 @@
 	margin: 40px auto 0 auto;
 }
 
-#images {
+#imagesFiller{
 	width: 600px;
 	height: 180px;
-	border: 1px solid black;
+	position: relative;
 	margin: 40px auto 0 auto;
+}
+
+#images {
+	transform: rotate(-90deg);
+	width: 180px;
+	height: 600px;
+	border: 1px solid black;
+	position: absolute;
+	top: -211px;
+	left: 209px;
+}
+
+#images img{
+	border: 1px solid black;
+	width: 180px;
+}
+
+.filler{
+	width: 180px;
+	height: 304px;
+	position: relative;
+}
+
+.contentImages{
+	transform: rotate(90deg);
+	width: 304px;
+	height: 180px;
+	position: absolute;
+	top: 62px;
+	left: -62px;
 }
 
 #content {
@@ -27,4 +57,33 @@
 	height: 600px;
 	border: 1px solid red;
 	margin: 40px auto 20px auto;
+}
+
+.fillerContent{
+	background-color: green;
+	width: 600px;
+	height: 600px;
+	display: none;
+}
+
+.fillerContent img, .fillerContent p{
+	float: left;
+	word-wrap: break-word;
+}
+
+#contentCoke{
+	background-color: red;
+	display: block;
+}
+
+#contentFanta{
+	background-color: yellow;
+}
+
+#contentTrocadero{
+	background-color: orange;
+}
+
+#coke, #fanta, #trocadero, #sprite{
+	width: 300px;
 }
